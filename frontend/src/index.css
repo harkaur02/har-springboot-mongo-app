@@ -52,5 +52,17 @@ input {
     padding: 10px;
     margin: 10px 0;
     width: 100%;
-    max-width: 40
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
